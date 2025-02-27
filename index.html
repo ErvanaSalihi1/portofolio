@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Ervana</span> Salihi</a>
+        <nav class="navbar">
+            <a href="#home">Portofolio</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact" class="contact">Contact Me</a>
+        </nav>
+        
+    
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Ervana Salihi</span> a Frontend Developer</h1>
+            <div class="btn-box">
+                <button class="btn-1" onclick="scrollToAbout()">About Me</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="portofolio.jpg" alt="">
+
+        </div>
+    </section>
+    <section class="about" id="about">
+
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend <span>Developer</span></h3>
+            <p>I am Ervana Salihi, a 21-year-old student in the last year of my Bachelor's degree in Computer Science.
+                My past studies and personal experiences have led me to a passion for technology and web design, which
+                has led me to go to school and has motivated me to pursue it later.
+
+                During my academic career, I have gained significant knowledge in web design, working with the HTML5
+                markup language, the CSS3 styling language, and the Java programming language. I also have basic
+                experience in managing databases with MySQL. To further my knowledge and practice, I have attended
+                several professional trainings, including a mini-training in Front-end Development from the PEN
+                Institute and an advanced training in Web Application Development Professional from ICT for Kosovo's
+                Growth. These experiences have helped me develop practical skills and become familiar with the full
+                process of creating a web application.
+
+                In addition to programming and web development, I have a particular interest in Social Media and Digital
+                Marketing. I have experience in visual content development and using platforms like Canva for graphic
+                design and digital promotion. I enjoy creating content that not only looks attractive, but also has an
+                impact and adapts to the needs of the audience.
+
+                I am passionate about continuous learning and personal development. I am fluent in English and
+                communicate fluently, always following the latest developments in the field of technology and digital
+                marketing. The ambition is to combine technical knowledge with creative skills to create innovative and
+                valuable products.
+
+            </p>
+        </div>
+
+    </section>
+    <section class="education" id="education">
+        <div class="education-content"></div>
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-cards">
+            <div class="card">
+                <h3>High School</h3>
+                <p>Natural Science Gymnasium</p>
+                <p>Kuvendi i Arberit, Ferizaj</p>
+                <p>Sep 2018-Jun 2022</p>
+            </div>
+            <div class="card">
+                <h3>University</h3>
+                <p>Universiteti Kadri Zeka,Gjilan</p>
+                <p>Bachelor's in Computer Science</p>
+                <p>Oct 2022-Present</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-cards">
+            <div class="card">
+                <h3>HTML</h3>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+            </div>
+            <div class="card">
+                <h3>Java</h3>
+            </div>
+            <div class="card">
+                <h3>Python</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contact-form" id="contact">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+        </ul>
+
+
+    </footer>
+    <script>
+        function scrollToAbout() {
+            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+   
+
+    
+
+</body>
+
+</html>
